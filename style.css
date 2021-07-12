@@ -1,0 +1,15 @@
+
+#navbar_list{
+    display: flex;
+}
+#navbar_list li{
+    display: flex;
+}
+
+.right_nav {
+    align-items: flex-end;
+}
+
+.left_nav {
+    align-items: flex-start;
+}
