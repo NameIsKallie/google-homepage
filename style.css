@@ -1,7 +1,7 @@
-
-#navbar_list{
+#navbar_list {
     display: flex;
 }
+
 #navbar_list li{
     display: flex;
 }
