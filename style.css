@@ -1,5 +1,10 @@
+nav {
+    display: flex;
+    justify-content: stretch;
+}
 #navbar_list {
     display: flex;
+    justify-content: stretch;
 }
 
 #navbar_list li{
@@ -7,9 +12,17 @@
 }
 
 .right_nav {
-    align-items: flex-end;
+    align-self: flex-end;
 }
 
 .left_nav {
-    align-items: flex-start;
+    align-self: flex-start;
+}
+
+#footer_list {
+    display: flex;
+}
+
+#footer_list li {
+    display: flex;
 }
