@@ -3,36 +3,41 @@
 <head>
     <meta charset="UTF-8">
     <title>Google</title>
-    <LINK REL=StyleSheet HREF="style.css" TYPE="text/css" MEDIA="screen"/>
+    <LINK REL=StyleSheet HREF="styles/style.css" TYPE="text/css" MEDIA="screen"/>
 </head>
 <body>
     <nav>
-        <ul id="navbar_list">
-            <li class="left_nav">About</li>
-            <li class="left_nav">Store</li>
-            <li class="right_nav">Gmail</li>
-            <li class="right_nav">Images</li>
-            <li class="right_nav"><img src="" alt="Google Apps"></li>
-            <li class="right_nav">Sign in</li>
+        <ul class="nav-left">
+            <li>About</li>
+            <li>Store</li>
+        </ul>
+        <ul class="nav-right">
+            <li>Gmail</li>
+            <li>Images</li>
+            <li><img src="" alt="Google Apps"></li>
+            <li>Sign in</li>
         </ul>
     </nav>
-    <div id="logo">
-        <img src="/img/logo.svg" alt="Google">
-    </div>
-    <div id="search">
-        <input id="search_input">
-        <button id="search_btn">Google Search</button>
-        <button id="lucky_btn">I'm Feeling Lucky</button>
+    <div class="main">
+        <div id="logo">
+            <img src="/img/logo.svg" alt="Google">
+        </div>
+        <div id="search">
+            <input id="search-input">
+            <button id="search-btn">Google Search</button>
+            <button id="lucky-btn">I'm Feeling Lucky</button>
+        </div>
     </div>
     <footer>
-        <ul id="footer_list">
-            <li class="left_footer">Advertising</li>
-            <li class="left_footer">Business</li>
-            <li class="left_footer">How Search Works</li>
-            <li class="center_footer">Carbon neutral since 2007</li>
-            <li class="right_footer">Privacy</li>
-            <li class="right_footer">Terms</li>
-            <li class="right_footer">Settings</li>
+        <ul class="footer-left">
+            <li>Advertising</li>
+            <li>Business</li>
+            <li>How Search Works</li>
+        </ul>
+        <ul class="footer-left">
+            <li>Privacy</li>
+            <li>Terms</li>
+            <li>Settings</li>
         </ul>
     </footer>
 </body>
