@@ -22,21 +22,21 @@ nav {
     padding-right: 1em;
 }
 
-.nav-left a:hover, .nav-right a:hover {
+nav ul li a:hover {
     text-decoration: underline;
 }
 
-.nav-left a, .nav-right a {
+nav ul li a {
     text-decoration: none;
     color:black;
 }
 
-.footer-left a, .footer-right a {
+footer ul li a {
     text-decoration: none;
     color: black;
 }
 
-.footer-left a:hover, .footer-right a:hover {
+footer ul li a:hover {
     text-decoration: underline;
 }
 
