@@ -87,6 +87,13 @@ nav ul {
 
 #search-input {
     grid-area: header;
+    border-radius: 2em;
+    border-color: #f2f2f2;
+    padding: .75em 1em;
+}
+
+#search-input:focus {
+    outline: none;
 }
 
 #search-btn {
