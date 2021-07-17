@@ -46,9 +46,6 @@ nav ul {
     padding-left: .75em;
 }
 
-.nav-right {
-}
-
 #app-menu-icon {
     width: 1em;
 }
@@ -151,7 +148,4 @@ footer ul li a:hover {
 .footer-left {
     margin-right: auto;
     
-}
-
-.footer-right {
 }
